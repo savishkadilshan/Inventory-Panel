@@ -11,7 +11,7 @@ app.use(express.json());
 // MongoDB connection implementation
 mongoose
   .connect(
-    "mongodb+srv://savishkadilshan:in5sDjaq8SnZqcLz@cluster0.pj8muri.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    // add mongodb database
   )
   .then(() => {
     console.log("MongoDB connected successfully");
